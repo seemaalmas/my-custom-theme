@@ -1,0 +1,12 @@
+# Exclude WordPress core files and uploads
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+
+# Exclude logs, system files, and IDE configs
+.DS_Store
+*.log
+*.bak
+node_modules/
+.vscode/
+.idea/
